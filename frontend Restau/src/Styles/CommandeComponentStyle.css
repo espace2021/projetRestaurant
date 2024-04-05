@@ -1,0 +1,78 @@
+.btn.btn-outline-dark:hover {
+    color: black;
+    background-color: white;
+}
+
+td {
+    width: 20%;
+}
+
+.media {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+    vertical-align: top;
+}
+
+.media-left, .media-right, .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-left, .media>.pull-left {
+    padding-right: 10px;
+}
+
+.media-body {
+    width: 10000px;
+}
+
+.media .controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 150px;
+    height: 100%;
+    background-color: transparent;
+    text-align: left;
+}
+
+.media-object {
+    min-width: 120px;
+    max-width: 200px;
+    width: 80px;
+    height: auto;
+}
+
+.media .controls .input-group {
+    margin-bottom: 15px;
+}
+
+.react-numeric-input {
+    position: absolute;
+    width: 100%;
+}
+
+.react-numeric-input .input {
+    position: relative;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.input-group-btn {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
